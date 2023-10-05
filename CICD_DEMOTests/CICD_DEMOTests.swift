@@ -19,6 +19,8 @@ final class CICD_DEMOTests: XCTestCase {
     }
 
     func testExample() throws {
+        let value = 1
+        XCTAssertEqual(value, 1, "The value of x should not be \(value)")
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         // Any test you write for XCTest can be annotated as throws and async.
